@@ -25,7 +25,7 @@ Further analysis of baby names, containing applications of linear algebra, and p
 - Compute probability matrices by dividing by the total number of children in a given year
 - Compute matrices that normalize values across years to be between 0 and 1
 - Compute cosine distance between all pairs of boy and girl names. This step required splitting the matrices into 10 fragments then parallelizing the multiplications.
-- Display name wiht largest cosine distance
+- Display name with largest cosine distance
 
 The bonus asked to compute the top 1000 distances. I developed an algorithm by hand for this that efficiently computed the result within the same order of magnitude of the previous computation local to my machine.
 
